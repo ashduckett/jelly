@@ -1,0 +1,31 @@
+.shape {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.shape2 {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.shapes {
+    filter:url('#goo');
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
